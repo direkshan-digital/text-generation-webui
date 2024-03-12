@@ -1,7 +1,7 @@
 aiofiles==23.1.0
-fastapi==0.95.2
+fastapi==0.109.1
 gradio_client==0.2.5
-gradio==3.33.1
+gradio==4.19.2
 
 accelerate==0.22.*
 colorama
@@ -12,11 +12,11 @@ numpy==1.24
 optimum==1.12.0
 pandas
 peft==0.5.*
-Pillow>=9.5.0
+Pillow>=10.2.0
 pyyaml
 requests
 safetensors==0.3.2
-transformers==4.32.*
+transformers==4.37.0
 scipy
 sentencepiece
 tensorboard
@@ -55,3 +55,9 @@ https://github.com/jllllll/GPTQ-for-LLaMa-CUDA/releases/download/0.1.0/gptq_for_
 
 # ctransformers
 https://github.com/jllllll/ctransformers-cuBLAS-wheels/releases/download/AVX2/ctransformers-0.2.25+cu117-py3-none-any.whl
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+orjson>=3.9.15 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+sympy>=1.12 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
