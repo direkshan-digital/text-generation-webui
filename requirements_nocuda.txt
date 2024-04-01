@@ -1,7 +1,7 @@
 aiofiles==23.1.0
 fastapi==0.95.2
 gradio_client==0.2.5
-gradio==3.33.1
+gradio==4.22.0
 
 accelerate==0.22.*
 colorama
@@ -12,7 +12,7 @@ numpy==1.24
 optimum==1.12.0
 pandas
 peft==0.5.*
-Pillow>=9.5.0
+Pillow>=10.3.0
 pyyaml
 requests
 safetensors==0.3.2
