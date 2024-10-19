@@ -1,7 +1,7 @@
 aiofiles==23.1.0
 fastapi==0.95.2
 gradio_client==0.2.5
-gradio==3.33.1
+gradio==4.44.0
 
 accelerate==0.22.*
 colorama
@@ -26,3 +26,4 @@ wandb
 # bitsandbytes
 bitsandbytes==0.41.1; platform_system != "Windows"
 https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.1-py3-none-win_amd64.whl; platform_system == "Windows"
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
